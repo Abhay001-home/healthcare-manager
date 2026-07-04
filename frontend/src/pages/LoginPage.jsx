@@ -94,7 +94,9 @@ export default function LoginPage() {
         {mode === 'login' && (
           <div style={{ marginTop: 16, paddingTop: 14, borderTop: '1px dashed var(--border)', fontSize: 12, color: 'var(--text-faint)' }}>
             Demo credentials (after running <code>npm run seed</code>):<br />
-            Patient: aman@mail.test / patient123 &nbsp;·&nbsp; Doctor: meera@clinic.test / doctor123 &nbsp;·&nbsp; Admin: admin@clinic.test / admin123
+            Patient: aman@mail.test / patient123 &nbsp;·&nbsp; <br />
+            Doctor: meera@clinic.test / doctor123 &nbsp;·&nbsp;<br />
+            Admin: admin@clinic.test / admin123
           </div>
         )}
       </div>
